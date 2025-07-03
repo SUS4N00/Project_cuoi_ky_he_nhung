@@ -1,0 +1,3 @@
+../../TouchGFX/gui/include/game/Player.hpp:6:7:game::Player::~Player()	0	static
+../../TouchGFX/gui/include/game/Player.hpp:6:7:virtual game::Player::~Player()	8	static
+C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/Player.cpp:5:1:game::Player::Player(int, int)	16	static

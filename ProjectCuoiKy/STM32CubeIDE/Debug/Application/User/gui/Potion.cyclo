@@ -1,0 +1,3 @@
+../../TouchGFX/gui/include/game/Potion.hpp:6:7:game::Potion::~Potion()	1
+../../TouchGFX/gui/include/game/Potion.hpp:6:7:virtual game::Potion::~Potion()	1
+C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/Potion.cpp:5:1:game::Potion::Potion(int)	1

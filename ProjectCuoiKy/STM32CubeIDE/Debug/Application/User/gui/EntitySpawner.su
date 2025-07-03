@@ -1,0 +1,7 @@
+C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/EntitySpawner.cpp:13:6:static void game::EntitySpawner::setMonsterDamageBonus(int)	0	static
+C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/EntitySpawner.cpp:16:5:static int game::EntitySpawner::getMonsterDamageBonus()	0	static
+C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/EntitySpawner.cpp:20:6:static bool game::EntitySpawner::spawnRandomGoblin(ContainerEntity* (*)[6])	312	static
+C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/EntitySpawner.cpp:45:6:static bool game::EntitySpawner::spawnRandomSlime(ContainerEntity* (*)[6])	312	static
+C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/EntitySpawner.cpp:70:6:static bool game::EntitySpawner::spawnRandomDeathKnight(ContainerEntity* (*)[6])	312	static
+C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/EntitySpawner.cpp:95:6:static bool game::EntitySpawner::spawnRandomChest(ContainerEntity* (*)[6])	312	static
+C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/EntitySpawner.cpp:119:6:static bool game::EntitySpawner::spawnRandomEntity(ContainerEntity* (*)[6])	8	static

@@ -1,0 +1,1 @@
+C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/CombatRule.cpp:5:14:static game::CombatResult game::CombatRule::resolveCombat(game::Entity::Type, int, int, game::Entity::Type, int, int, bool)	24	static

@@ -1,0 +1,1297 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "CanvasBufferSize": 3600,
+        "Components": [
+          {
+            "Type": "Container",
+            "Name": "containerGround",
+            "Width": 240,
+            "Height": 240,
+            "Components": []
+          },
+          {
+            "Type": "Image",
+            "Name": "background",
+            "Width": 240,
+            "Height": 240,
+            "RelativeFilename": "background.png"
+          },
+          {
+            "Type": "Container",
+            "Name": "containerSpell",
+            "X": 160,
+            "Y": 240,
+            "Width": 80,
+            "Height": 80,
+            "Components": [
+              {
+                "Type": "Image",
+                "Name": "image1",
+                "Width": 80,
+                "Height": 80,
+                "RelativeFilename": "spell_button_UI.png"
+              },
+              {
+                "Type": "FlexButton",
+                "Name": "flexButton1",
+                "Width": 80,
+                "Height": 80,
+                "Alpha": 0,
+                "ButtonTrigger": {
+                  "Type": "ClickButtonTrigger"
+                },
+                "ButtonStyles": [
+                  {
+                    "Type": "BoxWithBorderButtonStyle",
+                    "Width": 80,
+                    "Height": 80,
+                    "LockToFlexButtonSize": true,
+                    "BorderSize": 5,
+                    "ColorReleased": {
+                      "Green": 102,
+                      "Blue": 153
+                    },
+                    "ColorPressed": {
+                      "Green": 153,
+                      "Blue": 204
+                    },
+                    "ColorBorderReleased": {
+                      "Green": 51,
+                      "Blue": 102
+                    },
+                    "ColorBorderPressed": {
+                      "Red": 51,
+                      "Green": 102,
+                      "Blue": 153
+                    }
+                  }
+                ]
+              },
+              {
+                "Type": "TextArea",
+                "Name": "spellCounter",
+                "X": 15,
+                "Y": 15,
+                "Width": 50,
+                "Height": 50,
+                "TextId": "__SingleUse_1ED7",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 3,
+                  "Blue": 40
+                },
+                "Wildcard1": {
+                  "TextId": "__SingleUse_WNLT",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "containerSlideBar",
+            "Y": 240,
+            "Width": 160,
+            "Height": 80,
+            "Components": [
+              {
+                "Type": "Image",
+                "Name": "image2",
+                "Width": 160,
+                "Height": 80,
+                "RelativeFilename": "background_2nd.png"
+              },
+              {
+                "Type": "LineProgress",
+                "Name": "lineProgressPass",
+                "X": 13,
+                "Y": 55,
+                "Width": 100,
+                "Height": 10,
+                "FileNameProgress": "__generated\\alternate_theme_images_widgets_lineprogress_fillers_plain_normal_tiny_active_0.png",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "StartY": 5.0,
+                "EndY": 5.0,
+                "EndX": 100.0,
+                "LineWidth": 10.0,
+                "LineEndingStyle": "Butt",
+                "FileNameBackground": "__generated\\alternate_theme_images_widgets_lineprogress_backgrounds_image_plain_normal_tiny_0.png",
+                "ProgressRangeMax": 100,
+                "ProgressInitialValue": 10
+              },
+              {
+                "Type": "LineProgress",
+                "Name": "lineProgressLevel",
+                "X": 13,
+                "Y": 41,
+                "Width": 100,
+                "Height": 10,
+                "FileNameProgress": "__generated\\alternate_theme_images_widgets_lineprogress_fillers_plain_normal_tiny_active_0.png",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "StartY": 5.0,
+                "EndY": 5.0,
+                "EndX": 100.0,
+                "LineWidth": 10.0,
+                "LineEndingStyle": "Butt",
+                "FileNameBackground": "__generated\\alternate_theme_images_widgets_lineprogress_backgrounds_image_plain_normal_tiny_0.png",
+                "ProgressRangeMax": 100
+              },
+              {
+                "Type": "TextArea",
+                "Name": "textLV",
+                "X": 13,
+                "Y": 15,
+                "Width": 42,
+                "Height": 10,
+                "TextId": "__SingleUse_10UJ",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "__SingleUse_HKUH",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton2",
+            "X": 130,
+            "Y": 240,
+            "Width": 30,
+            "Height": 35,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 30,
+                "Height": 35,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 139,
+            "Y": 248,
+            "Width": 13,
+            "Height": 19,
+            "TextId": "__SingleUse_VD4A",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "Button",
+            "Name": "button1",
+            "Y": -57,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.png",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\medium_rounded_normal.json"
+          },
+          {
+            "Type": "Button",
+            "Name": "button2",
+            "Y": 330,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.png",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\medium_rounded_normal.json"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_0",
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_1",
+            "X": 40,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_2",
+            "X": 80,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_3",
+            "X": 120,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_4",
+            "X": 160,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_5",
+            "X": 200,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_6",
+            "Y": 40,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_7",
+            "X": 40,
+            "Y": 40,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_8",
+            "X": 80,
+            "Y": 40,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_9",
+            "X": 120,
+            "Y": 40,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_10",
+            "X": 160,
+            "Y": 40,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_11",
+            "X": 200,
+            "Y": 40,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_12",
+            "Y": 80,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_13",
+            "X": 40,
+            "Y": 80,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_14",
+            "X": 80,
+            "Y": 80,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_15",
+            "X": 120,
+            "Y": 80,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_16",
+            "X": 160,
+            "Y": 80,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_17",
+            "X": 200,
+            "Y": 80,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_18",
+            "Y": 120,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_19",
+            "X": 40,
+            "Y": 120,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_20",
+            "X": 80,
+            "Y": 120,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_21",
+            "X": 120,
+            "Y": 120,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_22",
+            "X": 160,
+            "Y": 120,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_23",
+            "X": 200,
+            "Y": 120,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_24",
+            "Y": 160,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_25",
+            "X": 40,
+            "Y": 160,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_26",
+            "X": 80,
+            "Y": 160,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_27",
+            "X": 120,
+            "Y": 160,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_28",
+            "X": 160,
+            "Y": 160,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_29",
+            "X": 200,
+            "Y": 160,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_30",
+            "Y": 200,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_31",
+            "X": 40,
+            "Y": 200,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_32",
+            "X": 80,
+            "Y": 200,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_33",
+            "X": 120,
+            "Y": 200,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_34",
+            "X": 160,
+            "Y": 200,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "containerEntity1_35",
+            "X": 200,
+            "Y": 200,
+            "Width": 40,
+            "Height": 40,
+            "CustomContainerDefinitionName": "ContainerEntity"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButtonUp",
+            "X": 81,
+            "Width": 79,
+            "Height": 80,
+            "Alpha": 0,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 79,
+                "Height": 80,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButtonDown",
+            "X": 81,
+            "Y": 160,
+            "Width": 79,
+            "Height": 80,
+            "Alpha": 0,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 79,
+                "Height": 80,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButtonLeft",
+            "Y": 80,
+            "Width": 80,
+            "Height": 80,
+            "Alpha": 0,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 80,
+                "Height": 80,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButtonRight",
+            "X": 161,
+            "Y": 80,
+            "Width": 79,
+            "Height": 80,
+            "Alpha": 0,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 79,
+                "Height": 80,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButtonLeft"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "functionMoveLeft"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButtonRight"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "functionMoveRight"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButtonUp"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "functionMoveUp"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButtonDown"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "functionMoveDown"
+            }
+          },
+          {
+            "InteractionName": "Interaction5",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "functionSpell"
+            }
+          },
+          {
+            "InteractionName": "Interaction6",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton2"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen2"
+            }
+          },
+          {
+            "InteractionName": "Interaction7",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionBlock",
+              "ActionComponent": "Screen4"
+            }
+          },
+          {
+            "InteractionName": "Interaction8",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button2"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionBlock",
+              "ActionComponent": "Screen5"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen2",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 240,
+            "Height": 360,
+            "RelativeFilename": "Wellcome.png"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "Width": 240,
+            "Height": 320,
+            "Alpha": 0,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 240,
+                "Height": 320,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionBlock",
+              "ActionComponent": "Screen3"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen3",
+        "Components": [
+          {
+            "Type": "Button",
+            "Name": "button1",
+            "Y": -62,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.png",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\medium_rounded_normal.json"
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Y": -12,
+            "Width": 240,
+            "Height": 360,
+            "RelativeFilename": "Menu.png"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "easy",
+            "X": 42,
+            "Y": 79,
+            "Width": 157,
+            "Height": 54,
+            "Alpha": 0,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 157,
+                "Height": 54,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "normal",
+            "X": 42,
+            "Y": 152,
+            "Width": 157,
+            "Height": 54,
+            "Alpha": 0,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 157,
+                "Height": 54,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "hard",
+            "X": 42,
+            "Y": 224,
+            "Width": 157,
+            "Height": 54,
+            "Alpha": 0,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 157,
+                "Height": 54,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "easy"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "functionEasy"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "normal"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "functionNormal"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "hard"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "functionHard"
+            }
+          },
+          {
+            "InteractionName": "Interaction5",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionBlock",
+              "ActionComponent": "Screen1"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen4",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Y": -27,
+            "Width": 240,
+            "Height": 360,
+            "RelativeFilename": "GameOver.png"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "X": 44,
+            "Y": 213,
+            "Width": 152,
+            "Height": 50,
+            "Alpha": 0,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 152,
+                "Height": 50,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionBlock",
+              "ActionComponent": "Screen2"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen5",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 240,
+            "Height": 360,
+            "RelativeFilename": "Win.png"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "X": 34,
+            "Y": 207,
+            "Width": 172,
+            "Height": 50,
+            "Alpha": 0,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 172,
+                "Height": 50,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionBlock",
+              "ActionComponent": "Screen2"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "ContainerEntity",
+        "Width": 40,
+        "Height": 40,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "avatar",
+            "Width": 40,
+            "Height": 40,
+            "RelativeFilename": "goblin.png",
+            "Fadeable": true
+          },
+          {
+            "Type": "Image",
+            "Name": "heart",
+            "Y": 25,
+            "Width": 15,
+            "Height": 15,
+            "RelativeFilename": "heart.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textHP",
+            "Y": 25,
+            "Width": 15,
+            "Height": 15,
+            "TextId": "__SingleUse_63C0",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_XWYN",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textDamTaken",
+            "X": 3,
+            "Y": 1,
+            "Width": 26,
+            "Height": 24,
+            "Visible": false,
+            "TextId": "__SingleUse_IH5O",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 140
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_GUMW",
+              "UseBuffer": true,
+              "BufferSize": 10
+            },
+            "Fadeable": true
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "Name": "ProjectCuoiKy",
+    "Resolution": {
+      "Width": 240,
+      "Height": 320
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen2",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 240,
+        "Height": 320
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Portrait",
+    "Family": "STM32F4",
+    "SubFamily": "STM32F429/439",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m4",
+    "ProjectFile": "../STM32F429I_DISCO_REV_D01.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts"
+    ]
+  },
+  "Version": "4.25.0",
+  "CreatedBy": "4.25.0"
+}

@@ -1,0 +1,6 @@
+../../TouchGFX/gui/include/game/SpellScroll.hpp:7:7:game::SpellScroll::~SpellScroll()	8	static
+../../TouchGFX/gui/include/game/SpellScroll.hpp:7:7:virtual game::SpellScroll::~SpellScroll()	8	static
+C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/SpellScroll.cpp:11:6:void game::SpellScroll::onTurnStart()	0	static
+C:\ST\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344\tools\bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/bits/std_function.h:368:7:)>::function() [with _Res = void; _ArgTypes = {}]	0	static
+C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/SpellScroll.cpp:6:1:game::SpellScroll::SpellScroll()	24	static
+C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/SpellScroll.cpp:8:1:game::SpellScroll::SpellScroll(int, int)	32	static

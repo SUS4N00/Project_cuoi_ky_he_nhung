@@ -1,0 +1,7 @@
+../../TouchGFX/gui/include/game/Entity.hpp:21:13:game::Entity::~Entity()	1
+../../TouchGFX/gui/include/game/Entity.hpp:21:13:virtual game::Entity::~Entity()	1
+C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/Entity.cpp:6:1:game::Entity::Entity(Type, int, int, bool)	1
+C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/Entity.cpp:9:5:int game::Entity::getHP() const	1
+C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/Entity.cpp:10:5:int game::Entity::getSpeed() const	1
+C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/Entity.cpp:11:14:game::Entity::Type game::Entity::getType() const	1
+C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/Entity.cpp:12:6:void game::Entity::setHP(int)	1

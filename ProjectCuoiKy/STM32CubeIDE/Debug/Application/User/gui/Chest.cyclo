@@ -1,0 +1,3 @@
+../../TouchGFX/gui/include/game/Chest.hpp:6:7:game::Chest::~Chest()	2
+../../TouchGFX/gui/include/game/Chest.hpp:6:7:virtual game::Chest::~Chest()	1
+C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/Chest.cpp:8:1:game::Chest::Chest(int, int, int)	1

@@ -1,0 +1,58 @@
+BÁO CÁO DỰ ÁN GAME GRID-BASED TOUCHGFX
+====================================
+
+1. Lên kế hoạch và mục tiêu
+--------------------------
+- Xác định mục tiêu: Xây dựng game grid-based trên TouchGFX với các entity (quái, vật phẩm, chest, door, ...) có thể spawn/xóa an toàn, quản lý tiến trình màn chơi, đảm bảo UI mượt và không lỗi bộ nhớ.
+- Đề ra các yêu cầu: Chuẩn hóa quản lý entity, tối ưu bộ nhớ, không crash/double free, callback animation an toàn, quản lý stage, logic door, kiểm soát spawn, độ khó, chuyển màn hình khi thắng/thua.
+
+2. Thiết kế hệ thống lớp và logic
+---------------------------------
+- Thiết kế các class: Entity, Player, Monster, Door, OpenDoor, Chest, Rock, SpellScroll, MovableObject, ContainerEntity, EntitySpawner, GameStageManager, ...
+- Chuyển toàn bộ quản lý entity UI sang dùng duy nhất ContainerEntity (loại bỏ các container đặc thù).
+- Xây dựng EntitySpawner để spawn entity, chest reward, door, open door, với callback an toàn.
+- Xây dựng GameStageManager quản lý stage, tiến trình, spawn/reset entity, giữ nguyên level player, chuyển màn, v.v.
+- Tối ưu logic xóa entity: setVisible(false), invalidate, remove khỏi parent, đưa vào tickCounterPendingDelete, chỉ xóa khi không còn animation, set nullptr, tránh double free.
+- Thêm các hàm kiểm tra animation (isAnyAnimationRunning), hủy animation (cancelMoveAnimation, cancelFadeAnimation).
+- Đảm bảo logic door: chỉ nhận damage từ player, khi chết biến thành OpenDoor, OpenDoor chỉ nhận tương tác từ player để qua màn.
+- Kiểm soát tỉ lệ spawn entity bằng weight table, tránh spawn vào ô vừa spawn reward.
+- Quản lý độ khó qua Global::gameMode, điều chỉnh chỉ số quái theo stage và độ khó.
+- Logic chuyển màn hình: khi vượt max_stage chuyển screen5, player chết khi chưa hoàn thành hết chuyển screen4.
+
+3. Các khó khăn và cách khắc phục
+---------------------------------
+- Crash khi xóa entity/container: Đã chuẩn hóa quy trình xóa, chỉ xóa khi không còn animation, set nullptr, kiểm tra double free.
+- Callback animation giữ con trỏ cũ: Đảm bảo luôn hủy animation trước khi xóa, callback không giữ reference cũ.
+- Tràn bộ nhớ do tickReceiver/animator: Đã kiểm soát số lượng animator, unregister timer khi không dùng.
+- Logic door và open door phức tạp: Refactor thành helper, callback rõ ràng, đảm bảo luôn spawn OpenDoor đúng chuẩn.
+- Quản lý tiến trình màn chơi: Xây dựng GameStageManager, tách biệt logic stage, reset, spawn, chuyển màn.
+- Kiểm soát spawn entity: Dùng weight table, truyền avoidCells, kiểm tra grid trước khi spawn.
+- Đồng bộ UI và logic: Mọi thay đổi entity đều cập nhật UI, invalidate đúng lúc, cập nhật progress, level, spell, v.v.
+- Chuyển đổi độ khó: Loại bỏ enum cũ, chuyển toàn bộ sang dùng Global::gameMode.
+
+4. Luồng hoạt động chính của game
+---------------------------------
+- Khởi tạo màn chơi → spawn player, entity, door.
+- Player di chuyển, nếu va chạm entity thì gọi handleCombat.
+- Nếu là Door, chỉ nhận damage từ player, khi chết spawn OpenDoor.
+- Nếu là OpenDoor, kiểm tra qua màn cuối thì thắng, không thì sang màn mới.
+- Nếu là Chest, spawn reward.
+- Nếu entity chết, xóa entity, cập nhật UI.
+- Lặp lại cho đến khi player thắng hoặc thua.
+
+5. Kết quả đạt được
+------------------
+- Hệ thống entity, stage, UI, logic chuyển màn đã ổn định, an toàn bộ nhớ, không crash, đúng yêu cầu gameplay.
+- Đã hoàn thiện logic: chỉ khi player đi vào OpenDoor mới thắng, phá cửa chỉ mở cửa.
+- Đảm bảo mọi logic spawn/xóa entity, chuyển màn, cập nhật UI đều an toàn và tối ưu.
+
+6. Đề xuất phát triển tiếp
+--------------------------
+- Thêm nhiều loại quái, vật phẩm, hiệu ứng mới.
+- Nâng cấp AI quái, thêm thử thách cho người chơi.
+- Tối ưu hóa hiệu suất cho các thiết bị TouchGFX yếu hơn.
+- Mở rộng hệ thống nhiệm vụ, thành tích, bảng xếp hạng.
+
+---
+
+Báo cáo tự động tổng hợp bởi GitHub Copilot.
