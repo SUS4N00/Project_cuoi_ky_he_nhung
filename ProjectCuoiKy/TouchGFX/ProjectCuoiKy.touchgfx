@@ -705,50 +705,6 @@
         ],
         "Interactions": [
           {
-            "InteractionName": "Interaction1",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "flexButtonLeft"
-            },
-            "Action": {
-              "Type": "ActionCustom",
-              "FunctionName": "functionMoveLeft"
-            }
-          },
-          {
-            "InteractionName": "Interaction2",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "flexButtonRight"
-            },
-            "Action": {
-              "Type": "ActionCustom",
-              "FunctionName": "functionMoveRight"
-            }
-          },
-          {
-            "InteractionName": "Interaction3",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "flexButtonUp"
-            },
-            "Action": {
-              "Type": "ActionCustom",
-              "FunctionName": "functionMoveUp"
-            }
-          },
-          {
-            "InteractionName": "Interaction4",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "flexButtonDown"
-            },
-            "Action": {
-              "Type": "ActionCustom",
-              "FunctionName": "functionMoveDown"
-            }
-          },
-          {
             "InteractionName": "Interaction5",
             "Trigger": {
               "Type": "TriggerClicked",

@@ -1,5 +1,5 @@
 Application/User/gui/Screen1Presenter.o: \
- C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp \
+ D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp \
  ../../TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/screen1_screen/Screen1ViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \

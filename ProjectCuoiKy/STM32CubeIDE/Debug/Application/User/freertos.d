@@ -1,5 +1,5 @@
 Application/User/freertos.o: \
- C:/TouchGFXProjects/ProjectCuoiKy/Core/Src/freertos.c \
+ D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/Core/Src/freertos.c \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../Core/Inc/FreeRTOSConfig.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

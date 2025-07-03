@@ -28,22 +28,6 @@ public:
     /*
      * Virtual Action Handlers
      */
-    virtual void functionMoveLeft()
-    {
-        // Override and implement this function in Screen1
-    }
-    virtual void functionMoveRight()
-    {
-        // Override and implement this function in Screen1
-    }
-    virtual void functionMoveUp()
-    {
-        // Override and implement this function in Screen1
-    }
-    virtual void functionMoveDown()
-    {
-        // Override and implement this function in Screen1
-    }
     virtual void functionSpell()
     {
         // Override and implement this function in Screen1

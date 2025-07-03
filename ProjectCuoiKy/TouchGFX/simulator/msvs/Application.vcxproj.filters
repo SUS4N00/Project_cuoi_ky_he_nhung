@@ -248,10 +248,10 @@
       <UniqueIdentifier>5CF7FD47-9C36-FD33-9BB2-610398927A6F</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\gui\include">
-      <UniqueIdentifier>2235F9B7-96BE-7AC0-2149-8F833DD1FAE9</UniqueIdentifier>
+      <UniqueIdentifier>D46F5ED9-71A3-0E93-59F7-EF19C9C6EFD9</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\gui\include\game">
-      <UniqueIdentifier>04F17D0A-2DB4-DDF3-F798-B53C9346F480</UniqueIdentifier>
+      <UniqueIdentifier>3D0FE577-F3CE-67F0-A94A-8F2C12F15069</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

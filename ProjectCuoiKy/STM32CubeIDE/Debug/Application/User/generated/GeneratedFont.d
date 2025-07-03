@@ -1,5 +1,5 @@
 Application/User/generated/GeneratedFont.o: \
- C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/generated/fonts/src/GeneratedFont.cpp \
+ D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/generated/fonts/src/GeneratedFont.cpp \
  ../../TouchGFX/generated/fonts/include/fonts/GeneratedFont.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/ConstFont.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp \

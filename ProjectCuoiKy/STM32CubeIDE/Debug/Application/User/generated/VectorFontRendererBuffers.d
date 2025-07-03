@@ -1,5 +1,5 @@
 Application/User/generated/VectorFontRendererBuffers.o: \
- C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/generated/fonts/src/VectorFontRendererBuffers.cpp \
+ D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/generated/fonts/src/VectorFontRendererBuffers.cpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/VectorFontRendererImpl.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Config.hpp \

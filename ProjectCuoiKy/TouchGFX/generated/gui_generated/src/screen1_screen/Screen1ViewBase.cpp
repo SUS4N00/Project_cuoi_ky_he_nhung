@@ -224,7 +224,6 @@ Screen1ViewBase::Screen1ViewBase() :
     flexButtonUp.setBorderSize(5);
     flexButtonUp.setBoxWithBorderColors(touchgfx::Color::getColorFromRGB(0, 102, 153), touchgfx::Color::getColorFromRGB(0, 153, 204), touchgfx::Color::getColorFromRGB(0, 51, 102), touchgfx::Color::getColorFromRGB(51, 102, 153));
     flexButtonUp.setAlpha(0);
-    flexButtonUp.setAction(flexButtonCallback);
     flexButtonUp.setPosition(81, 0, 79, 80);
     add(flexButtonUp);
 
@@ -232,7 +231,6 @@ Screen1ViewBase::Screen1ViewBase() :
     flexButtonDown.setBorderSize(5);
     flexButtonDown.setBoxWithBorderColors(touchgfx::Color::getColorFromRGB(0, 102, 153), touchgfx::Color::getColorFromRGB(0, 153, 204), touchgfx::Color::getColorFromRGB(0, 51, 102), touchgfx::Color::getColorFromRGB(51, 102, 153));
     flexButtonDown.setAlpha(0);
-    flexButtonDown.setAction(flexButtonCallback);
     flexButtonDown.setPosition(81, 160, 79, 80);
     add(flexButtonDown);
 
@@ -240,7 +238,6 @@ Screen1ViewBase::Screen1ViewBase() :
     flexButtonLeft.setBorderSize(5);
     flexButtonLeft.setBoxWithBorderColors(touchgfx::Color::getColorFromRGB(0, 102, 153), touchgfx::Color::getColorFromRGB(0, 153, 204), touchgfx::Color::getColorFromRGB(0, 51, 102), touchgfx::Color::getColorFromRGB(51, 102, 153));
     flexButtonLeft.setAlpha(0);
-    flexButtonLeft.setAction(flexButtonCallback);
     flexButtonLeft.setPosition(0, 80, 80, 80);
     add(flexButtonLeft);
 
@@ -248,7 +245,6 @@ Screen1ViewBase::Screen1ViewBase() :
     flexButtonRight.setBorderSize(5);
     flexButtonRight.setBoxWithBorderColors(touchgfx::Color::getColorFromRGB(0, 102, 153), touchgfx::Color::getColorFromRGB(0, 153, 204), touchgfx::Color::getColorFromRGB(0, 51, 102), touchgfx::Color::getColorFromRGB(51, 102, 153));
     flexButtonRight.setAlpha(0);
-    flexButtonRight.setAction(flexButtonCallback);
     flexButtonRight.setPosition(161, 80, 79, 80);
     add(flexButtonRight);
 }
@@ -300,34 +296,6 @@ void Screen1ViewBase::setupScreen()
 
 void Screen1ViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer& src)
 {
-    if (&src == &flexButtonLeft)
-    {
-        //Interaction1
-        //When flexButtonLeft clicked call virtual function
-        //Call functionMoveLeft
-        functionMoveLeft();
-    }
-    if (&src == &flexButtonRight)
-    {
-        //Interaction2
-        //When flexButtonRight clicked call virtual function
-        //Call functionMoveRight
-        functionMoveRight();
-    }
-    if (&src == &flexButtonUp)
-    {
-        //Interaction3
-        //When flexButtonUp clicked call virtual function
-        //Call functionMoveUp
-        functionMoveUp();
-    }
-    if (&src == &flexButtonDown)
-    {
-        //Interaction4
-        //When flexButtonDown clicked call virtual function
-        //Call functionMoveDown
-        functionMoveDown();
-    }
     if (&src == &flexButton1)
     {
         //Interaction5

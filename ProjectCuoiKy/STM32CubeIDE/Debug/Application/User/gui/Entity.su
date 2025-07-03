@@ -1,7 +1,7 @@
 ../../TouchGFX/gui/include/game/Entity.hpp:21:13:game::Entity::~Entity()	0	static
 ../../TouchGFX/gui/include/game/Entity.hpp:21:13:virtual game::Entity::~Entity()	8	static
-C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/Entity.cpp:6:1:game::Entity::Entity(Type, int, int, bool)	12	static
-C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/Entity.cpp:9:5:int game::Entity::getHP() const	0	static
-C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/Entity.cpp:10:5:int game::Entity::getSpeed() const	0	static
-C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/Entity.cpp:11:14:game::Entity::Type game::Entity::getType() const	0	static
-C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/Entity.cpp:12:6:void game::Entity::setHP(int)	0	static
+D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/gui/src/game/Entity.cpp:5:1:game::Entity::Entity(Type, int, int, bool)	12	static
+D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/gui/src/game/Entity.cpp:8:5:int game::Entity::getHP() const	0	static
+D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/gui/src/game/Entity.cpp:9:5:int game::Entity::getSpeed() const	0	static
+D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/gui/src/game/Entity.cpp:10:14:game::Entity::Type game::Entity::getType() const	0	static
+D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/gui/src/game/Entity.cpp:11:6:void game::Entity::setHP(int)	0	static

@@ -1,2 +1,2 @@
-C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/generated/images/src/SVGDatabase.cpp:10:27:const touchgfx::VGObject* SVGDatabase::getInstance()	0	static
-C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/generated/images/src/SVGDatabase.cpp:15:10:uint16_t SVGDatabase::getInstanceSize()	0	static
+D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/generated/images/src/SVGDatabase.cpp:10:27:const touchgfx::VGObject* SVGDatabase::getInstance()	0	static
+D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/generated/images/src/SVGDatabase.cpp:15:10:uint16_t SVGDatabase::getInstanceSize()	0	static

@@ -1,5 +1,5 @@
 Application/User/generated/Screen5ViewBase.o: \
- C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/generated/gui_generated/src/screen5_screen/Screen5ViewBase.cpp \
+ D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/generated/gui_generated/src/screen5_screen/Screen5ViewBase.cpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/screen5_screen/Screen5ViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \

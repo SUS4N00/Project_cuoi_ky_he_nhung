@@ -1,2 +1,2 @@
-C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/generated/images/src/BitmapDatabase.cpp:63:37:const touchgfx::Bitmap::BitmapData* BitmapDatabase::getInstance()	1
-C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/generated/images/src/BitmapDatabase.cpp:68:10:uint16_t BitmapDatabase::getInstanceSize()	1
+D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/generated/images/src/BitmapDatabase.cpp:63:37:const touchgfx::Bitmap::BitmapData* BitmapDatabase::getInstance()	1
+D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/generated/images/src/BitmapDatabase.cpp:68:10:uint16_t BitmapDatabase::getInstanceSize()	1

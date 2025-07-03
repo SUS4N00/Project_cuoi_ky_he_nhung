@@ -1,5 +1,5 @@
 Application/User/gui/GameStageManager.o: \
- C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/GameStageManager.cpp \
+ D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/gui/src/game/GameStageManager.cpp \
  ../../TouchGFX/gui/include/gui/common/Global.hpp \
  ../../TouchGFX/gui/include/game/EntitySpawner.hpp \
  ../../TouchGFX/gui/include/game/Entity.hpp \

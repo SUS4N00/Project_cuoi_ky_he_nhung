@@ -1,5 +1,5 @@
 Application/User/gui/CombatRule.o: \
- C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/CombatRule.cpp \
+ D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/gui/src/game/CombatRule.cpp \
  ../../TouchGFX/gui/include/game/CombatRule.hpp \
  ../../TouchGFX/gui/include/game/Entity.hpp \
  ../../TouchGFX/gui/include/game/Player.hpp \

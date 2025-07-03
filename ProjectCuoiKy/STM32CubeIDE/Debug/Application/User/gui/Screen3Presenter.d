@@ -1,5 +1,5 @@
 Application/User/gui/Screen3Presenter.o: \
- C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/screen3_screen/Screen3Presenter.cpp \
+ D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/gui/src/screen3_screen/Screen3Presenter.cpp \
  ../../TouchGFX/gui/include/gui/screen3_screen/Screen3Presenter.hpp \
  ../../TouchGFX/gui/include/gui/model/ModelListener.hpp \
  ../../TouchGFX/gui/include/gui/model/Model.hpp \

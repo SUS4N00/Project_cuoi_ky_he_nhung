@@ -22,8 +22,8 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/FadeAnimator.hpp:41:7:touchgfx::FadeAnimator<touchgfx::Image>::~FadeAnimator()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:62:7:touchgfx::TextAreaWithOneWildcard::~TextAreaWithOneWildcard()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/FadeAnimator.hpp:41:7:touchgfx::FadeAnimator<touchgfx::TextAreaWithOneWildcard>::~FadeAnimator()	1
-C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/generated/gui_generated/src/containers/ContainerEntityBase.cpp:40:1:ContainerEntityBase::~ContainerEntityBase()	1
-C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/generated/gui_generated/src/containers/ContainerEntityBase.cpp:45:6:virtual void ContainerEntityBase::initialize()	1
+D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/generated/gui_generated/src/containers/ContainerEntityBase.cpp:40:1:ContainerEntityBase::~ContainerEntityBase()	1
+D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/generated/gui_generated/src/containers/ContainerEntityBase.cpp:45:6:virtual void ContainerEntityBase::initialize()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/FadeAnimator.hpp:84:18:void touchgfx::FadeAnimator<T>::setFadeAnimationDelay(uint16_t) [with T = touchgfx::TextAreaWithOneWildcard]	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/FadeAnimator.hpp:96:22:uint16_t touchgfx::FadeAnimator<T>::getFadeAnimationDelay() const [with T = touchgfx::TextAreaWithOneWildcard]	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/FadeAnimator.hpp:84:18:void touchgfx::FadeAnimator<T>::setFadeAnimationDelay(uint16_t) [with T = touchgfx::Image]	1
@@ -32,7 +32,7 @@ C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/generated/gui_generated/src/container
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:62:7:virtual touchgfx::TextAreaWithOneWildcard::~TextAreaWithOneWildcard()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/FadeAnimator.hpp:41:7:virtual touchgfx::FadeAnimator<touchgfx::TextAreaWithOneWildcard>::~FadeAnimator()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/FadeAnimator.hpp:41:7:virtual touchgfx::FadeAnimator<touchgfx::Image>::~FadeAnimator()	1
-C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/generated/gui_generated/src/containers/ContainerEntityBase.cpp:40:1:virtual ContainerEntityBase::~ContainerEntityBase()	1
+D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/generated/gui_generated/src/containers/ContainerEntityBase.cpp:40:1:virtual ContainerEntityBase::~ContainerEntityBase()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	2
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:118:18:virtual void touchgfx::Image::invalidateContent() const	2
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:43:18:virtual void touchgfx::TextAreaWithWildcardBase::invalidateContent() const	1
@@ -45,4 +45,4 @@ C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/generated/gui_generated/src/container
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:50:5:touchgfx::Image::Image(const touchgfx::Bitmap&)	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:43:5:touchgfx::TextArea::TextArea()	1
-C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/generated/gui_generated/src/containers/ContainerEntityBase.cpp:9:1:ContainerEntityBase::ContainerEntityBase()	3
+D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/generated/gui_generated/src/containers/ContainerEntityBase.cpp:9:1:ContainerEntityBase::ContainerEntityBase()	3

@@ -1,5 +1,5 @@
 Application/User/gui/Screen3View.o: \
- C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/screen3_screen/Screen3View.cpp \
+ D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/gui/src/screen3_screen/Screen3View.cpp \
  ../../TouchGFX/gui/include/gui/screen3_screen/Screen3View.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/screen3_screen/Screen3ViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \

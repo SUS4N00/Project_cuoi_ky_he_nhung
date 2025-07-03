@@ -1,5 +1,5 @@
 Application/User/gui/Screen4Presenter.o: \
- C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/screen4_screen/Screen4Presenter.cpp \
+ D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/gui/src/screen4_screen/Screen4Presenter.cpp \
  ../../TouchGFX/gui/include/gui/screen4_screen/Screen4View.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/screen4_screen/Screen4ViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \

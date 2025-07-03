@@ -7,6 +7,7 @@
 #include <game/Player.hpp>
 #include <game/Slime.hpp>
 #include <game/GameStageManager.hpp>
+#include <touchgfx/events/GestureEvent.hpp>
 
 class Screen1View : public Screen1ViewBase
 {
@@ -33,6 +34,7 @@ private:
     void updateLevelUI();
     bool gainExpForKill(int entityType);
     int getExpToLevel(int level);
+    void handleGestureEvent(const GestureEvent& evt) override;
     game::GameStageManager stageManager;
 };
 

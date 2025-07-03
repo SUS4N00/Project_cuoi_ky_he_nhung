@@ -1,4 +1,4 @@
 ../../TouchGFX/gui/include/game/Slime.hpp:5:7:game::Slime::~Slime()	1
 ../../TouchGFX/gui/include/game/Slime.hpp:5:7:virtual game::Slime::~Slime()	1
-C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/Slime.cpp:8:1:game::Slime::Slime(int, int)	1
-C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/Slime.cpp:11:5:static int game::Slime::getAttackForType(game::Entity::Type)	1
+D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/gui/src/game/Slime.cpp:8:1:game::Slime::Slime(int, int)	1
+D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/gui/src/game/Slime.cpp:11:5:static int game::Slime::getAttackForType(game::Entity::Type)	1

@@ -1,7 +1,7 @@
-C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/GameStageManager.cpp:127:6:0()	5
-C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/GameStageManager.cpp:11:1:game::GameStageManager::GameStageManager(ContainerEntity* (&)[6][6])	1
-C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/GameStageManager.cpp:13:6:void game::GameStageManager::clearStageExceptPlayer()	4
-C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/GameStageManager.cpp:26:6:void game::GameStageManager::setupNewStage(int)	11
-C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/GameStageManager.cpp:127:6:void game::GameStageManager::spawnDoorIfNeeded()	6
-C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/GameStageManager.cpp:122:6:void game::GameStageManager::onPlayerMove()	1
-C:/TouchGFXProjects/ProjectCuoiKy/TouchGFX/gui/src/game/GameStageManager.cpp:164:6:void game::GameStageManager::resetProgress()	1
+D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/gui/src/game/GameStageManager.cpp:127:6:0()	5
+D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/gui/src/game/GameStageManager.cpp:11:1:game::GameStageManager::GameStageManager(ContainerEntity* (&)[6][6])	1
+D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/gui/src/game/GameStageManager.cpp:13:6:void game::GameStageManager::clearStageExceptPlayer()	4
+D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/gui/src/game/GameStageManager.cpp:26:6:void game::GameStageManager::setupNewStage(int)	11
+D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/gui/src/game/GameStageManager.cpp:127:6:void game::GameStageManager::spawnDoorIfNeeded()	6
+D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/gui/src/game/GameStageManager.cpp:122:6:void game::GameStageManager::onPlayerMove()	1
+D:/ProjectNhungCuoiKy/Project_cuoi_ky_he_nhung/ProjectCuoiKy/TouchGFX/gui/src/game/GameStageManager.cpp:164:6:void game::GameStageManager::resetProgress()	1

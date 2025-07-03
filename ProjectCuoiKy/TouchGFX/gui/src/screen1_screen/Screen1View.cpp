@@ -29,6 +29,37 @@ Screen1View::Screen1View()
     }
 }
 
+void Screen1View::handleGestureEvent(const GestureEvent& evt)
+{   
+    if (evt.getType() == GestureEvent::SWIPE_HORIZONTAL)
+    {
+        if (evt.getVelocity() > 0)
+        {
+            // Vuốt sang phải
+             functionMoveRight();
+
+        }
+        else
+        {
+            // Vuốt sang trái
+            functionMoveLeft();
+        }
+    }
+    else if (evt.getType() == GestureEvent::SWIPE_VERTICAL)
+    {
+        if (evt.getVelocity() > 0)
+        {
+            // Vuốt xuống
+             functionMoveDown();
+        }
+        else
+        {
+            // Vuốt lên
+            functionMoveUp();
+        }
+    }
+}
+
 void Screen1View::setupGrid()
 {
     // Lấy trạng thái player hiện tại (máu, tốc độ) để giữ lại khi sang màn mới
