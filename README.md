@@ -32,7 +32,7 @@ Bước 1: Cài đặt Tool Cài đặt STM32CubeIDE: https://www.st.com/en/deve
 
 Cài đặt TouchGFX Designer: https://www.st.com/en/development-tools/touchgfx.html
 
-Clone repository: git clone https://github.com/DangZz07/STM32F429ZIT6_Game2048.git
+Clone repository: https://github.com/SUS4N00/Project_cuoi_ky_he_nhung.git
 
 Bước 2: Mở Project
 
